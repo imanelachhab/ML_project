@@ -1,0 +1,25 @@
+# Emotion Dataset - DAIR-AI
+
+## Source
+**Dataset**: `dair-ai/emotion`  
+**Platform**: Hugging Face Datasets  
+**URL**: https://huggingface.co/datasets/dair-ai/emotion
+
+## Description
+English Twitter messages with six basic emotions:
+- 0: sadness
+- 1: joy 
+- 2: love
+- 3: anger
+- 4: fear
+- 5: surprise
+
+## Statistics
+- Total samples: ~20,000
+- Balanced across 6 emotions
+- Text length: 10-50 words average
+
+## Usage in this project
+```python
+from datasets import load_dataset
+dataset = load_dataset("dair-ai/emotion")
