@@ -1,6 +1,6 @@
 # Emotion Classification from Text
 
-## 📋 Project Description
+##  Project Description
 Machine learning system for multi-class emotion classification from text data. This project implements and compares multiple algorithms to categorize text into emotional categories (Love, Anger, Fear, Surprise) with advanced handling of class imbalance.
 
 ## Start
